@@ -2,7 +2,7 @@
 **Via:** email on 09/07/2023\
 **Email subject:** Establishment Data Derived from NETS - Healthcare\
 **Output Dataset Name:** BEDDN_tr10_measures20230823.txt\
-**Output Dataset Location:** [Sharepoint: Establishment_Data_Derived_from_NETS2019/BEDDN2019/McCulley_E](https://drexel0.sharepoint.com/:f:/r/sites/Establishments_Data_Derived_from_NETS2019/Shared%20Documents/General/BEDDN2019?csf=1&web=1&e=miCH3B)
+**Output Dataset Location:** [Sharepoint: Establishment_Data_Derived_from_NETS2019/BEDDN2019/McCulley_E](https://drexel0.sharepoint.com/:f:/r/sites/Establishments_Data_Derived_from_NETS2019/Shared%20Documents/General/BEDDN2019/McCulley_E?csf=1&web=1&e=93vc5a)
 ### Request Details
 **From email:**
 1.	Usama and I developed a definition to classify NETS categories in the Healthcare Domain as “COVID relevant” in terms of COVID-19 mortality. We independently reviewed each category to classify as “COVID relevant” or “non-COVID relevant”. We agreed on 88.6% of the classifications, with 1 conflict (Kidney Centers, KTC). Can you please help us reach a consensus? The reviewer comments and definition are in the attached file.
