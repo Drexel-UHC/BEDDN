@@ -22,7 +22,7 @@ usecols.insert(0, 'Year')
 usecols.insert(0, 'tract10')
 
 # load beddn
-beddn = pd.read_csv(r'\\files.drexel.edu\colleges\SOPH\Shared\UHC\Projects\NETS\Data\NETS2019_Python\NETS_tr10_measures20230914.txt', sep='\t', dtype={'tract10':str}, usecols=usecols)
+beddn = pd.read_csv(r'\\files.drexel.edu\colleges\SOPH\Shared\UHC\Projects\NETS\Data\NETS2019_Python\BEDDN_tr10_measures20230914.txt', sep='\t', dtype={'tract10':str}, usecols=usecols)
 
 # subset for 2019 
 beddn19 = beddn.loc[beddn['Year']==2019]
