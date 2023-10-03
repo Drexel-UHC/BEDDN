@@ -12,6 +12,9 @@
 
 I need tract10, year , t10_net_fsr_c and t10_net_fsu_c. just 2019 
 
+**Updated via email from 10/03/2023** ***\
+include all years
+
 ### Dataset Details
 BEDDN2019 Tract-Level dataset subset with the following conditions:
 
