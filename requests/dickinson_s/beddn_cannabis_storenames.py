@@ -34,3 +34,11 @@ print(runtime)
 #%%
 
 cannagrouped = cannafull.loc[~cannafull.duplicated(['DunsNumber','Company','TradeName'])]
+
+# do string search, grab dunsnumbers, find most recent sics of those dunsnumbers
+# create new dataframe with the company names, dunsnumbers, and sics
+regex = r"D?EL?IV?ER|(TO)? ?-?\bGO\b|TRANSPORT"
+deliveryname = cannagrouped.loc[(cannagrouped['Company'].str.contains(regex)) | (cannagrouped['TradeName'].str.contains(regex))]
+
+cannagrouped.to_csv(r'C:\Users\stf45\Documents\BEDDN\requests\dickinson_s\allcannabis_sic.csv', index=False)
+deliveryname.to_csv(r'C:\Users\stf45\Documents\BEDDN\requests\dickinson_s\canna_deliverynames.csv', index=False)

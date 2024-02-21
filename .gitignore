@@ -1,2 +1,5 @@
 *.csv
 *.txt
+*.docx
+*.xlsx
+*.pdf
