@@ -3,7 +3,7 @@
 **Email subject**: RE: NETS Data \
 **Output Dataset Name**: BEDDN_addressid_latlong.zip\
 **Output Dataset Location**: Sharepoint: Sent by S. Melly via liquid files 05/02/2024 \
-Additional files sent via email 05/02/2024: 
+**Additional files sent via email 05/02/2024**: 
 1. BEDDN_Catalogue.xlsx
 2. BEDDN_InfoSheet.pdf
 3. UHCMatchCodeRank20230822.xlsx
