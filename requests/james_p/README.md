@@ -10,7 +10,7 @@
 
 
 ### Summary
-Peter James reached out to the MESA Neighborhood & Aging team about acquiring Business Establishment Data Derived from NETS (BEDDN) in April 2024. Intended use is for creating year-category rasters for the contiguous US.
+Peter James reached out to the MESA Neighborhood & Aging team about acquiring Business Establishment Data Derived from NETS (BEDDN) in April 2024. Intended use is for creating category-year rasters for the contiguous US.
 
 ### Files Sent
 1. Folders for every year from 1990-2022 (n=33) containing files for each category (n=255), where every record has a unique establishment ID (created at Drexel) and address ID (created at Drexel) in order to link to lat/longs for spatial processing. File name format is: CCC_YYYY.csv, where CCC = category, such as 'AAL', and YYYY = year. These files can be linked to BEDDN_addressid_latlong.txt by the address ID.
