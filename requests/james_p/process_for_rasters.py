@@ -97,8 +97,7 @@ for year in years:
                   .drop(columns=['Hierarchy'])
                   )
     else: 
-        pass
-        
+        pass  
     
     # LOOP THROUGH BASE GROUP CATEGORIES AND SUBSET/EXPORT
     print('processing base groups')
@@ -120,9 +119,4 @@ for year in years:
                  .drop(columns=['BaseGroup'])
                  .to_csv(outfile, index=False)
                  )
-        
-        
-        
-    
-        
         
