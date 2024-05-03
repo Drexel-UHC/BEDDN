@@ -27,7 +27,7 @@ File format: comma delimited
 | Category     | Category assigned to establishment-year. This variable name will read 'BaseGroup' or 'HighLevel' depending on whether the file contains establishments that are categorized as Base Groups or Combination Categories/Thematic Constructs.            |
 
 #### BEDDN_addressid_latlong.txt
-File format: tab delimited
+File format: comma delimited
 | Variable                    | Description                                                                |
 |-----------------------------|----------------------------------------------------------------------------|
 | AddressID                   | Unique id for each address that can be used to link to spatial dataset |
