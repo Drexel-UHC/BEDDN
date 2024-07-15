@@ -32,3 +32,27 @@ for year in years:
         file.writelines(schema)
     out_name_gdb = f't10_beddn_cnd_{year}'
     arcpy.conversion.TableToTable(out_filepath, gdbtable_outpath, out_name_gdb)
+
+#%% LOAD TRACT SPATIAL FILE
+# copy tract spatial file and drop columns
+tract_spatial = r'Z:\UHC_Data\Census2010\Geodatabases\Census2010_US20230929.gdb\AlbersContUS_USGS\CT_2010_ContUSlandRepairAlbers'
+tracts_out_name = 'name_output_fc'
+tracts_out_fullpath = os.path.join(gdbtable_outpath, tracts_out_name)
+arcpy.management.CopyFeatures(tract_spatial, tracts_out_fullpath)
+arcpy.management.DeleteField(tracts_out_fullpath, ['GEOID10'], 'KEEP_FIELDS')
+
+# JOIN FILES TO SPATIAL FILE 
+# walk through files and join to tract boundary files
+arcpy.env.workspace = gdbtable_outpath
+files = arcpy.ListTables()
+
+for file in files:
+    print(f'joining {file}')
+    # get year as string
+    year = re.findall(r"(?<=cnd_)\d{4}", file)[0]
+    # join file to spatial file (category cols only)
+    join_field = 'Tract10'
+    in_field = 'GEOID10'
+    fields = arcpy.ListFields(file)
+    fields = [field.name for field in fields if field.name.startswith('t10_net')]
+    arcpy.management.JoinField(in_data=tracts_out)fullpath, in_field=in_field, join_table=file, join_field=join_field, fields=fields)
