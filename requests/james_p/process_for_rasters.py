@@ -26,7 +26,7 @@ import os
 #%% ADD FILE PATHS
 
 # file path to classified long with addresses file 
-cl_add_file = r'\path\file.txt'
+cl_add_file = r'Z:\UHC_Data\NETS_UHC\NETS2022\Data\Final\BEDDN_categories_addresses.txt'
 
 # file path to category descriptions file
 desc_file = r'Z:\UHC_Data\NETS_UHC\NETS2022\Data\Final\CategoryDescriptions20231127.txt'
