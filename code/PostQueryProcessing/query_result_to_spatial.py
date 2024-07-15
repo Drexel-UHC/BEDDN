@@ -1,6 +1,6 @@
 #%% TAKE TRACT-LEVEL BEDDN DATA QUERIED FROM DB AND CREATED SPATIAL FILE WITH COLUMN FOR EACH CATEGORY-YEAR
 # read in results file
-beddn_results = pd.read_csv(r'path to db query results\file.csv')
+beddn_results = pd.read_csv(r'path to db query results\file.csv', dtype={'Tract10':str})
 
 # define new folder to house output by-year csv files
 output_csv_path = r'new folder to output csvs by year'
