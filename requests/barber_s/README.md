@@ -6,8 +6,8 @@
 
 ### Request Details
 
-1.  Pull the following tract-level variables in Madison (28089), Hinds (28049), and Rankin (28121) (MS) counties for 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2022:
-Base Categories
+1.  Pull the following tract-level variables in Madison (28089), Hinds (28049), and Rankin (28121) (MS) counties for 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2022:  
+### Base Categories  
 •                  Kidney Centers (KCT)  
 •                  Urgent Care (URG)  
 •                  Religious Institutions (REL)  
@@ -19,7 +19,7 @@ Base Categories
 •                  US Postal (POS)  
 •                  Fire services and stations (FIR)  
 •                  Police services and stations (POL)  
-Combo Categories  
+### Combo Categories  
 •                  All convenience store (CNA)  
 •                  All supermarkets (SMA)  
 •                  Acute episodic care (AEC)  
