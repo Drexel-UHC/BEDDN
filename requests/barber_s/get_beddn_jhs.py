@@ -61,4 +61,4 @@ beddnsubwide.columns = [f'{col[0]}_{col[1]}' for col in beddnsubwide.columns]
 #%% EXPORT TO CSV
 
 beddnsubset.to_csv(r'C:\Users\stf45\Documents\BEDDN\requests\barber_s\tr10_BEDDN2022_jhs.csv', index=False)
-beddnsubwide.to_csv(r'C:\Users\stf45\Documents\BEDDN\requests\barber_s\tr10_BEDDN2022_jhs_wide.csv', index=False)
+beddnsubwide.to_csv(r'C:\Users\stf45\Documents\BEDDN\requests\barber_s\tr10_BEDDN2022_jhs_wide.csv')
