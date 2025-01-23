@@ -1,3 +1,51 @@
+# Request 01/23/2025
+
+EM requests all healthcare categories from 2022. Output file in same location as previous files (see below).
+
+# Request: McCulley_E  12/14/2023
+**Via:** email on 12/14/2023\
+**Email subject:** Establishment Data Derived from NETS - Healthcare\
+**Output Dataset Name:**  
+tr10_BEDDN2022_healthcare_2020.csv\
+tr10_BEDDN2022_healthcare_2021.csv\
+**Output Dataset Location:** [Sharepoint link](https://drexel0.sharepoint.com/:f:/r/sites/Establishments_Data_Derived_from_NETS2019/Shared%20Documents/General/BEDDN2022/McCulley_E?csf=1&web=1&e=HWg4xt)\
+**Data Dictionary**
+[BEDDN Catalogue](\\files.drexel.edu\encrypted\SOPH\UHC\MESA\UHC_Data\NETS_UHC\ForDataPortal\BEDDN_Catalogue)
+
+
+### Request Details
+**From email:**
+1.	All healthcare categories from years 2020 and 2021
+
+### Dataset Details
+BEDDN2022 Tract-Level dataset subset with the following conditions:
+
+1. Year==2020 and 2021 (separate files)
+2. Base Groups in Domain=='Healthcare':
+  - BHH  
+  - BHO
+  - BIO
+  - CDS
+  - CHS
+  - CHR
+  - CPC
+  - DDS
+  - DRG
+  - DRN
+  - EAR
+  - EMT
+  - HOS
+  - HPC
+  - KCT
+  - MHH
+  - MHO
+  - OPT
+  - PHT
+  - RES
+  - RSC
+  - RTC
+  - URG
+
 # Request: McCulley_E  09/07/2023
 **Via:** email on 09/07/2023\
 **Email subject:** Establishment Data Derived from NETS - Healthcare\
