@@ -32,4 +32,4 @@ beddn20 = (beddn.loc[beddn['Year']==2020]
 
 sumcol = beddn20.iloc[:,2:].sum(axis=1)
 sumcol.name = 't10_beddn_all_estab_d'
-sumcol.to_csv(r'D:\scratch\t10_beddn_all_estab_d.csv')
+sumcol.to_csv(r'D:\scratch\t10_BEDDN2022_all_estab_d2020.csv')
