@@ -1,3 +1,7 @@
+# Request 03/28/2025
+
+EM requests a density measure of all establishments per sqkm per census tract. Output file in same location as those below.
+
 # Request 01/23/2025
 
 EM requests all healthcare categories from 2022. Output file in same location as previous files (see below).
